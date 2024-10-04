@@ -1,0 +1,168 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #242424;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+section {
+    margin-top: 75px;
+}
+
+.logo-imagem {
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto {
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.menu li a:hover {
+    background-color: #043cec;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+body{
+    margin-top: 0;
+    background-color: whitesmoke;
+}
+
+.menu-inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.menu-inicial li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-inicial li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #242424;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.menu-inicial li a:hover{
+    background: none;
+    color: whitesmoke;
+    box-shadow: inset 0 0 0 2px #043cec, 0 0 1px rgba(0, 0, 0, 0);
+    background-color: #043cec;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.bem-vindo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.bem-vindo h1 {
+    font-size: 36px;
+    color: #242424;
+}
+
+table#tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #242424;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #ffffff;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke; 
+}
+
+th {
+    background-color: #242424;
+}
+
+tr:nth-child(even) {
+    background-color: #333333;
+}
+
+.baixo{
+    padding: 15px;
+}
+
+    
+    
+.button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.button-form {
+    padding: 8px 16px;
+    background-color: #043cec;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.button-form:hover, .button-form:focus, .button-form:active {
+    background: none;
+    color: #043cec;
+    box-shadow: inset 0 0 0 2px #043cec, 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
